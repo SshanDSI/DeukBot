@@ -1,0 +1,33 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Yes, I'm from "
+    }, {
+      "text": "Orlando",
+      "parameterId": "geo-city"
+    }, {
+      "text": ","
+    }, {
+      "text": "Florida",
+      "parameterId": "geo-state"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yes, I stay within the reachable limits. May be an hour away.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yes, I am a local resident. I stay within 3 mile radius.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

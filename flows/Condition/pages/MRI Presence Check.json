@@ -1,0 +1,43 @@
+{
+  "name": "3b6e0970-fa67-4a90-a4f7-f4f0ae20d2b8",
+  "displayName": "MRI Presence Check",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Do you have an MRI scan? ", "Can you confirm if you have a copy of your MRI scan ?", "Do you have a MRI scan of your Spine ?", "Did you get a MRI scan from your healthcare ?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "mri.presence.confirm",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "MRI Report",
+    "name": "683f1f3a-15c3-4ed9-a0b6-062c2c24db65"
+  }, {
+    "intent": "mri.presence.decline",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "MRI Scan",
+    "name": "e5d027e2-0e2b-4697-93e3-8965f329710c"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you please tell me if you have your MRI scan with you ?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "de0cfcf4-2f65-4c7e-8b90-2ab16f14b03e"
+  } ],
+  "description": "This page is meant to understand if the patient has a MRI scan and if so what does it say ?"
+}

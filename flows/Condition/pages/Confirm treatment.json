@@ -1,0 +1,32 @@
+{
+  "name": "bbdb8ea0-15e1-4890-843b-7c383c45f63a",
+  "displayName": "Confirm treatment",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Now that we have a better understanding of what caused your back pain, would you be interested in exploring the most effective treatments for $session.params.DiscInjury?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirm.ack",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Treatment",
+    "name": "618169f4-1f2a-474c-b081-21a89b2b63a0",
+    "description": "If the user is interested in understanding about the procedure, proceed to Treatment Flow."
+  }, {
+    "intent": "decline.ack",
+    "triggerFulfillment": {
+    
+    },
+    "name": "8444a03a-2e32-4030-9ce2-9df70cc63de5",
+    "description": "If the user is not interested in knowing about the treatment, we will redirect him to watch the testimonials of our patients."
+  } ],
+  "description": "This page asks the user if they want to understand about the best treatment available for back pain."
+}

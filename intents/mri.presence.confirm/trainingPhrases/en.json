@@ -1,0 +1,312 @@
+{
+  "trainingPhrases": [ {
+    "id": "0",
+    "parts": [ {
+      "text": "I've "
+    }, {
+      "text": "had "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "1",
+    "parts": [ {
+      "text": "Yes, "
+    }, {
+      "text": "I "
+    }, {
+      "text": "possess "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "of "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "2",
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "do "
+    }, {
+      "text": "have "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "3",
+    "parts": [ {
+      "text": "My "
+    }, {
+      "text": "back "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "is "
+    }, {
+      "text": "available. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "4",
+    "parts": [ {
+      "text": "I've "
+    }, {
+      "text": "got "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "5",
+    "parts": [ {
+      "text": "Yes, "
+    }, {
+      "text": "I've "
+    }, {
+      "text": "undergone "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "6",
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "have "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "7",
+    "parts": [ {
+      "text": "My "
+    }, {
+      "text": "back "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "results "
+    }, {
+      "text": "are "
+    }, {
+      "text": "ready. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "8",
+    "parts": [ {
+      "text": "I've "
+    }, {
+      "text": "had "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "done. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "9",
+    "parts": [ {
+      "text": "Yes, "
+    }, {
+      "text": "I've "
+    }, {
+      "text": "received "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "of "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "10",
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "do "
+    }, {
+      "text": "possess "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "of "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "11",
+    "parts": [ {
+      "text": "My "
+    }, {
+      "text": "back "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "is "
+    }, {
+      "text": "on "
+    }, {
+      "text": "hand. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "12",
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "have "
+    }, {
+      "text": "the "
+    }, {
+      "text": "results "
+    }, {
+      "text": "of "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back "
+    }, {
+      "text": "MRI. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "13",
+    "parts": [ {
+      "text": "Yes, "
+    }, {
+      "text": "I "
+    }, {
+      "text": "have "
+    }, {
+      "text": "the "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "14",
+    "parts": [ {
+      "text": "My "
+    }, {
+      "text": "back "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "is "
+    }, {
+      "text": "in "
+    }, {
+      "text": "my "
+    }, {
+      "text": "possession. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

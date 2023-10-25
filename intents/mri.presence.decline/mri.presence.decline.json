@@ -1,0 +1,6 @@
+{
+  "name": "efa53296-ed6a-4ea8-94ae-3f51a6b3ed88",
+  "displayName": "mri.presence.decline",
+  "priority": 500000,
+  "numTrainingPhrases": 15
+}

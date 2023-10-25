@@ -1,0 +1,14 @@
+{
+  "name": "c47a6ced-6b7a-402c-8792-cb4747b4da8d",
+  "displayName": "local.confirm",
+  "parameters": [ {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  }, {
+    "id": "geo-state",
+    "entityType": "@sys.geo-state"
+  } ],
+  "priority": 500000,
+  "description": "This intent detects if the user is a local resident or not.",
+  "numTrainingPhrases": 3
+}

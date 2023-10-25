@@ -1,0 +1,262 @@
+{
+  "trainingPhrases": [ {
+    "id": "0",
+    "parts": [ {
+      "text": "No, "
+    }, {
+      "text": "I'm "
+    }, {
+      "text": "not "
+    }, {
+      "text": "interested. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "1",
+    "parts": [ {
+      "text": "I'm "
+    }, {
+      "text": "not "
+    }, {
+      "text": "inclined "
+    }, {
+      "text": "to "
+    }, {
+      "text": "explore "
+    }, {
+      "text": "that. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "2",
+    "parts": [ {
+      "text": "It's "
+    }, {
+      "text": "not "
+    }, {
+      "text": "something "
+    }, {
+      "text": "I'm "
+    }, {
+      "text": "interested "
+    }, {
+      "text": "in. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "3",
+    "parts": [ {
+      "text": "No, "
+    }, {
+      "text": "I "
+    }, {
+      "text": "don't "
+    }, {
+      "text": "want "
+    }, {
+      "text": "to "
+    }, {
+      "text": "know. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "4",
+    "parts": [ {
+      "text": "I'll "
+    }, {
+      "text": "pass "
+    }, {
+      "text": "on "
+    }, {
+      "text": "that, "
+    }, {
+      "text": "thanks. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "5",
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "have "
+    }, {
+      "text": "no "
+    }, {
+      "text": "interest "
+    }, {
+      "text": "in "
+    }, {
+      "text": "it. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "6",
+    "parts": [ {
+      "text": "That "
+    }, {
+      "text": "doesn't "
+    }, {
+      "text": "pique "
+    }, {
+      "text": "my "
+    }, {
+      "text": "interest. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "7",
+    "parts": [ {
+      "text": "I'm "
+    }, {
+      "text": "not "
+    }, {
+      "text": "keen "
+    }, {
+      "text": "on "
+    }, {
+      "text": "that "
+    }, {
+      "text": "topic. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "8",
+    "parts": [ {
+      "text": "I'd "
+    }, {
+      "text": "rather "
+    }, {
+      "text": "not "
+    }, {
+      "text": "discuss "
+    }, {
+      "text": "that. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "9",
+    "parts": [ {
+      "text": "I'd "
+    }, {
+      "text": "prefer "
+    }, {
+      "text": "to "
+    }, {
+      "text": "skip "
+    }, {
+      "text": "that. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "10",
+    "parts": [ {
+      "text": "No "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "11",
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "would "
+    }, {
+      "text": "say "
+    }, {
+      "text": "No. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "12",
+    "parts": [ {
+      "text": "Not "
+    }, {
+      "text": "at "
+    }, {
+      "text": "this "
+    }, {
+      "text": "time. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "13",
+    "parts": [ {
+      "text": "Sorry, "
+    }, {
+      "text": "Not "
+    }, {
+      "text": "Interested. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "14",
+    "parts": [ {
+      "text": "I'm "
+    }, {
+      "text": "not "
+    }, {
+      "text": "looking "
+    }, {
+      "text": "to "
+    }, {
+      "text": "learn "
+    }, {
+      "text": "about "
+    }, {
+      "text": "it. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "15",
+    "parts": [ {
+      "text": "No, "
+    }, {
+      "text": "I "
+    }, {
+      "text": "don't "
+    }, {
+      "text": "want "
+    }, {
+      "text": "to "
+    }, {
+      "text": "delve "
+    }, {
+      "text": "into "
+    }, {
+      "text": "that. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "16",
+    "parts": [ {
+      "text": "I'd "
+    }, {
+      "text": "rather "
+    }, {
+      "text": "not "
+    }, {
+      "text": "go "
+    }, {
+      "text": "into "
+    }, {
+      "text": "it. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

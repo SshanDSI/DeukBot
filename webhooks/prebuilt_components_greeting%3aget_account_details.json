@@ -1,0 +1,17 @@
+{
+  "name": "05ddb197-5a4d-4456-a2fa-71e6d1ce36b1",
+  "displayName": "prebuilt_components_greeting:get_account_details",
+  "genericWebService": {
+    "uri": "https://www.example.com",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"phone_number\": \"$session.params.phone_number\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"getAccount\"\n  }\n}",
+    "parameterMapping": [ {
+      "key": "user_first_name",
+      "value": "$.user_name"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

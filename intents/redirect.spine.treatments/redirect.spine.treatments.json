@@ -1,0 +1,7 @@
+{
+  "name": "702fa2a1-31fb-4cd6-a8f1-f336547c261b",
+  "displayName": "redirect.spine.treatments",
+  "priority": 500000,
+  "description": "This intent will detect if the user is asking for all the procedures the DeukSpine has to offer.",
+  "numTrainingPhrases": 15
+}

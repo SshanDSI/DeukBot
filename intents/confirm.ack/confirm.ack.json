@@ -1,0 +1,7 @@
+{
+  "name": "44c8b0ff-9b62-438e-97cf-2008c90af51c",
+  "displayName": "confirm.ack",
+  "priority": 500000,
+  "description": "Detects the acknowledgement that the user is done watching the video.",
+  "numTrainingPhrases": 8
+}

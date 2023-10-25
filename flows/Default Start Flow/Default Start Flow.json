@@ -1,0 +1,66 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hello, Welcome to Deuk Spine Institute!! How can I help you today? " ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "I can certainly guide you on the causes of your back pain and also some of the best treatments we have to offer." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7d0ebd8a-16a3-423d-bcf9-c8369a7c049c",
+    "description": "Welcome the user to the chat session with a warm welcome from Deuk Spine Institute. \n\nFollowed by an option to understand their spinal condition or go through the treatments that we offer.\n\nFinally, a GIF of Deuk Spine Institute."
+  }, {
+    "intent": "redirect.spine.conditions",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Condition",
+    "name": "a068b992-b550-412c-a9cf-ba1f38705604",
+    "description": "The user asks the agent that they have a severe back pain."
+  }, {
+    "intent": "redirect.spine.treatments",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Treatment",
+    "name": "e3a82a64-3fe5-40b0-a8f2-d31f88eb6f07"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "a6593323-0781-4a2e-ac64-67fdc34555ec"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d380e1ed-c6fa-4b82-a7cb-bf6e50ab1d47"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.60000002,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

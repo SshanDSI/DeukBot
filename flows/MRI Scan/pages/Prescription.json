@@ -1,0 +1,45 @@
+{
+  "name": "96a4c777-c690-4271-b545-aa006035279a",
+  "displayName": "Prescription",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "No problem, would like us to send you a prescription to get an MRI done from your local healthcare center? " ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirm.ack",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Email_Prescription",
+    "name": "7a350c6f-b202-40c7-90ad-6d1b05c5713a",
+    "description": "If the user said \"YES\" to prescription, then redirect then to next page for their email ID."
+  }, {
+    "intent": "decline.ack",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Thank You",
+    "name": "cfd97ea2-e7a1-44b0-9967-641d76ce75b6",
+    "description": "If the user says \"No\", then we redirect them to \"Thank You\" flow and end the session."
+  } ],
+  "description": "This page takes the user towards the prescription side. Where we provide users with prescriptions to get their MRI done as a local healthcare."
+}

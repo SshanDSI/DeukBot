@@ -1,0 +1,108 @@
+{
+  "name": "03fdb33a-3b1d-4136-ac72-76add15ed748",
+  "displayName": "Local Resident",
+  "form": {
+    "parameters": [ {
+      "displayName": "City",
+      "entityType": "@sys.geo-city",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "description": "If the user responds with the name of their city, then extract it for later use."
+    }, {
+      "displayName": "State",
+      "entityType": "@sys.geo-state",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "description": "If the user mentions of the state, then extract it for later use. "
+    }, {
+      "displayName": "Country",
+      "entityType": "@sys.geo-country",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "description": "If the user comes from a different country, then extract it for later use. "
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Well, we do have our own MRI scanning facility at Deuk Spine Institute. And we offer MRI scanning at a pocket friendly price." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Are you a local resident of Melbourne, Florida or do you stay within the reachable limits to our specialty?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "local.confirm",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "local",
+        "value": true
+      } ],
+      "conditionalCases": [ {
+        "cases": [ {
+          "condition": "$session.params.city != null AND $session.params.state != null",
+          "caseContent": [ {
+            "message": {
+              "text": {
+                "text": [ "That's great to know that you come from $session.params.city , $session.params.state." ]
+              },
+              "languageCode": "en"
+            }
+          } ]
+        }, {
+          "condition": "$session.params.city != null",
+          "caseContent": [ {
+            "message": {
+              "text": {
+                "text": [ "That's great to know that you come from $session.params.city.It shouldn't take you long to reach our facility." ]
+              },
+              "languageCode": "en"
+            }
+          } ]
+        }, {
+          "caseContent": [ {
+            "message": {
+              "text": {
+                "text": [ "It's great to know that you stay in nearby locality." ]
+              },
+              "languageCode": "en"
+            }
+          } ]
+        } ]
+      } ]
+    },
+    "targetPage": "Need MRI Scan",
+    "name": "bf355c55-21f1-48c2-a842-20b1d85b70dd",
+    "description": "If the user is a local resident, then redirect to Need MRI scan page."
+  }, {
+    "intent": "local.decline",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No problem, would like us to send you a prescription to get an MRI done from your local healthcare center?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "local",
+        "value": false
+      } ]
+    },
+    "targetPage": "Prescription",
+    "name": "6feb4300-f419-46a2-8bb6-951cee4f6446"
+  } ],
+  "description": "This page is to check, if the user is a local resident. If so, then ask the user if they would like to get an MRI scan of their back at our facility. "
+}

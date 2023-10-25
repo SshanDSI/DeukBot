@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "herniated disc",
+    "synonyms": [ "herniated disc", "herniation" ],
+    "languageCode": "en"
+  }, {
+    "value": "collapsed disc",
+    "synonyms": [ "collapsed disc", "collapsed Disc", "Collaspsed Disc" ],
+    "languageCode": "en"
+  }, {
+    "value": "degenerated disc",
+    "synonyms": [ "degenerated disc", "Degenerated Disc", "Degenerative Disc Disease", "disc degeneration" ],
+    "languageCode": "en"
+  }, {
+    "value": "extruded disc",
+    "synonyms": [ "disc extrusion", "extruded disc", "Extruded Disc" ],
+    "languageCode": "en"
+  }, {
+    "value": "protruded disc",
+    "synonyms": [ "disc protrusion", "protruded disc", "Protruded disc" ],
+    "languageCode": "en"
+  } ]
+}

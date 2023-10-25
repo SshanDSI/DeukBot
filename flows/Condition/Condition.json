@@ -1,0 +1,60 @@
+{
+  "name": "12fd0073-9481-4630-8bc3-e9c8746c5c6b",
+  "displayName": "Condition",
+  "transitionRoutes": [ {
+    "intent": "redirect.spine.conditions",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sure, I can definitely help you understand your pain." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "According to a survey conducted on the patients at Deuk Spine, the following is the distribution of pain:\n\n20% - Cervical Vertebrae\n5% - Thoracic Vertebrae\n75% - Lumbar Vertebrae\n1% - Sacrum." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Example logo",
+            "rawUrl": "https://th.bing.com/th/id/OIP.lwYDHBRs5fPemF6785zzawHaKH?pid=ImgDet\u0026rs=1",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "MRI Presence Check",
+    "name": "18134085-bf19-4953-8507-4f47be16b8ca",
+    "description": "Entered the Spinal Conditions Page. This is a Start page and hence used for redirection.\n\n--\u003e Firstly, give a short explanation of the major areas of pain along the \n     spine. \n--\u003e Redirect it to next page to check if they have the MRI report."
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "c0baf307-3c21-4e17-985f-03756dc4e754"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "6d5d6070-2ab1-47f2-a986-67a0438da012"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.60000002,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

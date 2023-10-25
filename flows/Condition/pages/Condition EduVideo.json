@@ -1,0 +1,52 @@
+{
+  "name": "4c29626f-2e11-4492-b17a-2f077a6c3724",
+  "displayName": "Condition EduVideo",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Well in that case, let me show you how a $session.params.DiscInjury causes back pain." ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "accessibilityText": "Example logo",
+          "rawUrl": "https://img.youtube.com/vi/agILg3LBCDs/maxresdefault.jpg",
+          "type": "image"
+        } ], [ {
+          "anchor": {
+            "href": "https://www.youtube.com/watch?v=agILg3LBCDs"
+          },
+          "event": {
+            "event": ""
+          },
+          "icon": {
+            "color": "#FF9800",
+            "type": "chevron_right"
+          },
+          "mode": "blocking",
+          "text": "Click Here",
+          "type": "button"
+        } ] ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Please type \"Yes\" when done watching the video." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirm.ack",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirm treatment",
+    "name": "0a41fec0-87bc-44e7-8961-578731c7f5d9"
+  } ],
+  "description": "This page is for the video demonstration.\n"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "682fb3db-ee7a-425f-98fc-230186a240cc",
+  "displayName": "MRI Report",
+  "form": {
+    "parameters": [ {
+      "displayName": "DiscInjury",
+      "required": true,
+      "entityType": "@herniatedDisc",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I'm sorry, I may have missed that. Would you mind sharing the findings from your MRI report regarding your back pain?" ]
+              },
+              "languageCode": "en"
+            }, {
+              "payload": {
+                "richContent": [ [ {
+                  "options": [ {
+                    "text": "Herniated Disc"
+                  }, {
+                    "text": "Protruded Disc"
+                  }, {
+                    "text": "Bulging Disc"
+                  }, {
+                    "text": "Collapsed Disc"
+                  }, {
+                    "text": "Ruptured Disc"
+                  } ],
+                  "type": "chips"
+                } ] ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "d6fd74de-d519-45c8-843b-0efe6e7c0458"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I might not have caught that, would you kindly share what your MRI report reveals about your back pain?" ]
+              },
+              "languageCode": "en"
+            }, {
+              "payload": {
+                "richContent": [ [ {
+                  "options": [ {
+                    "text": "Herniated Disc"
+                  }, {
+                    "text": "Protruded Disc"
+                  }, {
+                    "text": "Bulging Disc"
+                  }, {
+                    "text": "Collapsed Disc"
+                  }, {
+                    "text": "Ruptured Disc"
+                  } ],
+                  "type": "chips"
+                } ] ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "850078c1-da57-4cd4-b3dc-84cca5f7a04d"
+        } ]
+      },
+      "description": "This parameter extracts the type of disc injury the patient currently has."
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "What does your MRI say about your back pain?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "redirect.mri.report",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Condition EduVideo",
+    "name": "5c03e7a0-f452-4c8e-a187-2da4e83937ca"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Condition EduVideo",
+    "name": "b273df89-f6dc-4272-a62a-62e45050fdc8",
+    "description": "Conditional route to ensure routing to next page when the form is filled."
+  } ],
+  "description": "If the patient has an MRI, then what does that say about your spinal problem."
+}

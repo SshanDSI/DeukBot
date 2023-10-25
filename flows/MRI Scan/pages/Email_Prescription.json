@@ -1,0 +1,64 @@
+{
+  "name": "9f4018f5-58d6-4b00-beea-ae31eeec37a3",
+  "displayName": "Email_Prescription",
+  "form": {
+    "parameters": [ {
+      "displayName": "Email_ID",
+      "required": true,
+      "entityType": "@sys.email",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-1",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I'm sorry I didn't quite understand that." ]
+              },
+              "languageCode": "en"
+            }, {
+              "text": {
+                "text": [ "Please ensure the Email address has a proper domain to it. For example: xxx@gmail.com, xxx@yahoo.com etc." ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "b46fe550-a3ed-4b88-8fc4-d05b8ef45198"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I'm sorry, can you please type in your email ID here?" ]
+              },
+              "languageCode": "en"
+            }, {
+              "text": {
+                "text": [ "Please ensure the Email address has a proper domain to it. For example: xxx@gmail.com, xxx@yahoo.com etc." ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "d4fbbca6-fe3e-44ce-8c50-1e4519500918"
+        } ]
+      },
+      "description": "Collect the email from the user to send over the prescription."
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Will shortly send you a prescription on $page.params.Email_ID. Please check your Inbox for the same." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Thank You",
+    "name": "24197fdd-ce4b-4849-b5c0-b786e7f6594d",
+    "description": "If all the required parameters are collected, then redirect the user to \"Thank You\" flow."
+  } ]
+}

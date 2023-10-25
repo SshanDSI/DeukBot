@@ -1,0 +1,7 @@
+{
+  "name": "d396c473-b43f-4d20-9df1-ad4b7cbd57a3",
+  "displayName": "redirect.spine.conditions",
+  "priority": 500000,
+  "description": "This intent will detect when patients ask for the reasons behind their back pain.",
+  "numTrainingPhrases": 15
+}

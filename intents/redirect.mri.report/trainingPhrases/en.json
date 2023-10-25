@@ -1,0 +1,161 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "It says, I have a bulged ",
+      "auto": true
+    }, {
+      "text": "disc",
+      "parameterId": "herniatedDisc",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yes I do, and it says I have a ",
+      "auto": true
+    }, {
+      "text": "disc protrusion",
+      "parameterId": "herniatedDisc",
+      "auto": true
+    }, {
+      "text": " in my spine.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "yes, a ",
+      "auto": true
+    }, {
+      "text": "herniated disc",
+      "parameterId": "herniatedDisc",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yes, my report says I have a ",
+      "auto": true
+    }, {
+      "text": "herniated disc",
+      "parameterId": "herniatedDisc",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "yes, it says I have a ",
+      "auto": true
+    }, {
+      "text": "herniated disc",
+      "parameterId": "herniatedDisc",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I was told there's a "
+    }, {
+      "text": "bulged disc",
+      "parameterId": "herniatedDisc"
+    }, {
+      "text": " in my MRI findings."
+    } ],
+    "repeatCount": 2,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The MRI shows a "
+    }, {
+      "text": "disc extrusion",
+      "parameterId": "herniatedDisc"
+    }, {
+      "text": " in my spine."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "According to the MRI scan, there's a "
+    }, {
+      "text": "disc protrusion",
+      "parameterId": "herniatedDisc"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My MRI report mentions a "
+    }, {
+      "text": "degenerated disc",
+      "parameterId": "herniatedDisc"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I received my MRI results, which show a "
+    }, {
+      "text": "slip disc",
+      "parameterId": "herniatedDisc"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My MRI report confirms the presence of a "
+    }, {
+      "text": "degenerated disc",
+      "parameterId": "herniatedDisc"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yes, I've had an MRI scan, and the results indicate that I have a "
+    }, {
+      "text": "herniated disc",
+      "parameterId": "herniatedDisc"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yes, I do have an MR scan and it says I have a "
+    }, {
+      "text": "herniated disc",
+      "parameterId": "herniatedDisc"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

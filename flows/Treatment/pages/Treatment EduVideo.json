@@ -1,0 +1,52 @@
+{
+  "name": "3f0476eb-1e16-4808-829f-c7e6af89faea",
+  "displayName": "Treatment EduVideo",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "accessibilityText": "Example logo",
+          "rawUrl": "https://img.youtube.com/vi/E7iKMkmFFbU/maxresdefault.jpg",
+          "type": "image"
+        } ], [ {
+          "anchor": {
+            "href": "https://www.youtube.com/watch?v=E7iKMkmFFbU"
+          },
+          "event": {
+            "event": ""
+          },
+          "icon": {
+            "color": "#FF9800",
+            "type": "chevron_right"
+          },
+          "mode": "blocking",
+          "text": "Click Here",
+          "type": "button"
+        } ] ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Please type in \"Yes\" when done watching the video." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirm.ack",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great !! I hope you understood how the Deuk Laser Disc Repair works. Would you like to take a look at the testimonials of some of our patients ?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Testimonials",
+    "name": "636aeeda-52db-4df3-ab33-d40ce9407194"
+  } ],
+  "description": "Page to demonstrate the services that we offer towards the spinal treatments."
+}

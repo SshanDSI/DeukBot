@@ -1,0 +1,11 @@
+{
+  "name": "7a144d6f-b086-4c52-abfa-cf36080a4d7b",
+  "displayName": "redirect.mri.report",
+  "parameters": [ {
+    "id": "herniatedDisc",
+    "entityType": "@herniatedDisc"
+  } ],
+  "priority": 500000,
+  "description": "This confirms that the patient has an MRI scan and also gives us information about their spinal condition.",
+  "numTrainingPhrases": 13
+}

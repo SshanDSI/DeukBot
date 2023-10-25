@@ -1,0 +1,29 @@
+{
+  "name": "dd8cb7b3-2a53-40ba-b948-549f6439110c",
+  "displayName": "Need MRI Scan",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Happy to know, that you chose to get your MRI done at Deuk Spine institute." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "In that case, would you like us to schedule an MRI Scan for you or you would prefer seeing us in person for a scan?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirm.ack",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Schedule",
+    "name": "5bb4d7a9-342c-4e71-9986-e4a804903606",
+    "description": "This route will be triggered if the user who stays local agrees to get their MRI done at our facility."
+  } ]
+}

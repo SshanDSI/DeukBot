@@ -1,0 +1,348 @@
+{
+  "trainingPhrases": [ {
+    "id": "0",
+    "parts": [ {
+      "text": "No, "
+    }, {
+      "text": "I "
+    }, {
+      "text": "haven't "
+    }, {
+      "text": "had "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back "
+    }, {
+      "text": "yet. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "1",
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "don't "
+    }, {
+      "text": "possess "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "2",
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "haven't "
+    }, {
+      "text": "undergone "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "3",
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "lack "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "4",
+    "parts": [ {
+      "text": "I'm "
+    }, {
+      "text": "without "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "of "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "5",
+    "parts": [ {
+      "text": "Nope, "
+    }, {
+      "text": "no "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "6",
+    "parts": [ {
+      "text": "Unfortunately, "
+    }, {
+      "text": "I "
+    }, {
+      "text": "don't "
+    }, {
+      "text": "have "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "of "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "7",
+    "parts": [ {
+      "text": "I've "
+    }, {
+      "text": "never "
+    }, {
+      "text": "had "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "done "
+    }, {
+      "text": "on "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "8",
+    "parts": [ {
+      "text": "My "
+    }, {
+      "text": "back "
+    }, {
+      "text": "hasn't "
+    }, {
+      "text": "been "
+    }, {
+      "text": "subjected "
+    }, {
+      "text": "to "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "9",
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "can't "
+    }, {
+      "text": "provide "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "of "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "10",
+    "parts": [ {
+      "text": "No, "
+    }, {
+      "text": "I "
+    }, {
+      "text": "haven't "
+    }, {
+      "text": "received "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back's "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "results. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "11",
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "don't "
+    }, {
+      "text": "possess "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "image "
+    }, {
+      "text": "of "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "12",
+    "parts": [ {
+      "text": "I'm "
+    }, {
+      "text": "lacking "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "specifically "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "13",
+    "parts": [ {
+      "text": "I'm "
+    }, {
+      "text": "afraid "
+    }, {
+      "text": "I "
+    }, {
+      "text": "don't "
+    }, {
+      "text": "have "
+    }, {
+      "text": "any "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan "
+    }, {
+      "text": "for "
+    }, {
+      "text": "my "
+    }, {
+      "text": "back. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "14",
+    "parts": [ {
+      "text": "My "
+    }, {
+      "text": "back "
+    }, {
+      "text": "isn't "
+    }, {
+      "text": "documented "
+    }, {
+      "text": "in "
+    }, {
+      "text": "an "
+    }, {
+      "text": "MRI "
+    }, {
+      "text": "scan. "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}
