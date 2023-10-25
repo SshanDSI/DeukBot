@@ -1,0 +1,122 @@
+{
+  "trainingPhrases": [ {
+    "id": "0",
+    "parts": [ {
+      "text": "No, I'm not interested."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "1",
+    "parts": [ {
+      "text": "I'm not inclined to explore that."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "2",
+    "parts": [ {
+      "text": "It's not something I'm interested in."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "3",
+    "parts": [ {
+      "text": "No, I don't want to know."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "4",
+    "parts": [ {
+      "text": "I'll pass on that, thanks."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "5",
+    "parts": [ {
+      "text": "I have no interest in it."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "6",
+    "parts": [ {
+      "text": "That doesn't pique my interest."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "7",
+    "parts": [ {
+      "text": "I'm not keen on that topic."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "8",
+    "parts": [ {
+      "text": "I'd rather not discuss that."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "9",
+    "parts": [ {
+      "text": "I'd prefer to skip that."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "10",
+    "parts": [ {
+      "text": "No"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "11",
+    "parts": [ {
+      "text": "I would say No."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "12",
+    "parts": [ {
+      "text": "Not at this time."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "13",
+    "parts": [ {
+      "text": "Sorry, Not Interested."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "14",
+    "parts": [ {
+      "text": "I'm not looking to learn about it."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "15",
+    "parts": [ {
+      "text": "No, I don't want to delve into that."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "16",
+    "parts": [ {
+      "text": "I'd rather not go into it."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}
