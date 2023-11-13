@@ -10,6 +10,20 @@
         "text": [ "Do you have an MRI scan? ", "Can you confirm if you have a copy of your MRI scan ?", "Do you have a MRI scan of your Spine ?", "Did you get a MRI scan from your healthcare ?" ]
       },
       "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "mode": "blocking",
+            "text": "Yes, I possess an MRI scan of my back. "
+          }, {
+            "mode": "blocking",
+            "text": "I don't possess an MRI scan for my back. "
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
     } ]
   },
   "transitionRoutes": [ {
@@ -38,6 +52,12 @@
       } ]
     },
     "name": "de0cfcf4-2f65-4c7e-8b90-2ab16f14b03e"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "51defc13-561a-46c6-95bd-e913b706e5e5"
   } ],
   "description": "This page is meant to understand if the patient has a MRI scan and if so what does it say ?"
 }

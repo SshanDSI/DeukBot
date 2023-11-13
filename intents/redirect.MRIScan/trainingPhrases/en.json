@@ -2,126 +2,105 @@
   "trainingPhrases": [ {
     "id": "0",
     "parts": [ {
-      "text": "No, I'm not interested."
+      "text": "Can I schedule an MRI for my back?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "1",
     "parts": [ {
-      "text": "I'm not inclined to explore that."
+      "text": "I want to book an MRI scan for my back."
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "2",
     "parts": [ {
-      "text": "It's not something I'm interested in."
+      "text": "How can I arrange an MRI scan for my back?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "3",
     "parts": [ {
-      "text": "No, I don't want to know."
+      "text": "Is it possible to get an MRI of my back?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "4",
     "parts": [ {
-      "text": "I'll pass on that, thanks."
+      "text": "Could you help me set up an appointment for a back MRI?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "5",
     "parts": [ {
-      "text": "I have no interest in it."
+      "text": "I'm interested in obtaining an MRI scan for my back."
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "6",
     "parts": [ {
-      "text": "That doesn't pique my interest."
+      "text": "What's the process for getting an MRI scan for my back?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "7",
     "parts": [ {
-      "text": "I'm not keen on that topic."
+      "text": "Can you assist me in scheduling an MRI for my back?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "8",
     "parts": [ {
-      "text": "I'd rather not discuss that."
+      "text": "I'm looking to have an MRI done on my back."
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "9",
     "parts": [ {
-      "text": "I'd prefer to skip that."
+      "text": "How do I go about getting an MRI scan for my back?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "10",
     "parts": [ {
-      "text": "No ---- test"
+      "text": "Is there a way to request an MRI appointment for my back?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "11",
     "parts": [ {
-      "text": "test --- test"
+      "text": "I need information on getting an MRI scan for my back."
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "12",
     "parts": [ {
-      "text": "I would say No."
+      "text": "What steps do I need to take to get an MRI of my back?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "13",
     "parts": [ {
-      "text": "Not at this time."
+      "text": "Can you guide me through the process of getting an MRI for my back?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "id": "14",
     "parts": [ {
-      "text": "Sorry, Not Interested."
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "id": "15",
-    "parts": [ {
-      "text": "I'm not looking to learn about it."
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "id": "16",
-    "parts": [ {
-      "text": "No, I don't want to delve into that."
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "id": "17",
-    "parts": [ {
-      "text": "I'd rather not go into it."
+      "text": "I'd like to inquire about the procedure for obtaining an MRI scan for my back."
     } ],
     "repeatCount": 1,
     "languageCode": "en"

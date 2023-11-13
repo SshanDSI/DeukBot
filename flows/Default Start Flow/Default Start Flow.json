@@ -34,6 +34,14 @@
     },
     "targetFlow": "Treatment",
     "name": "e3a82a64-3fe5-40b0-a8f2-d31f88eb6f07"
+  }, {
+    "intent": "redirect.MRIScan",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "MRI Scan",
+    "name": "5445af00-f28d-4ab8-be73-0194544eee61",
+    "description": "This route will redirect the patient to the MRI Scan context."
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -61,6 +69,12 @@
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",
     "classificationThreshold": 0.60000002,
-    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
   }
 }

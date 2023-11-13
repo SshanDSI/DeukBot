@@ -18,7 +18,7 @@
           "type": "image"
         } ], [ {
           "anchor": {
-            "href": "https://www.youtube.com/watch?v=agILg3LBCDs"
+            "href": "https://www.youtube.com/embed/agILg3LBCDs?autoplay=1\u0026mute=1"
           },
           "event": {
             "event": ""
@@ -35,18 +35,37 @@
       "languageCode": "en"
     }, {
       "text": {
-        "text": [ "Please type \"Yes\" when done watching the video." ]
+        "text": [ "Please click \"Done Watching !!\" when done watching the video." ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "mode": "blocking",
+            "text": "Done Watching !!"
+          } ],
+          "type": "chips"
+        } ] ]
       },
       "languageCode": "en"
     } ]
   },
   "transitionRoutes": [ {
-    "intent": "confirm.ack",
+    "intent": "Confirm.VideoDone",
     "triggerFulfillment": {
     
     },
     "targetPage": "Confirm treatment",
-    "name": "0a41fec0-87bc-44e7-8961-578731c7f5d9"
+    "name": "0a41fec0-87bc-44e7-8961-578731c7f5d9",
+    "description": "Redirect the user to the next page, when they click on \"Done Watching !!\""
+  } ],
+  "eventHandlers": [ {
+    "event": "Video Watch Timeout",
+    "triggerFulfillment": {
+    
+    },
+    "name": "44c91acd-adc3-4715-a067-6ac41d622652"
   } ],
   "description": "This page is for the video demonstration.\n"
 }

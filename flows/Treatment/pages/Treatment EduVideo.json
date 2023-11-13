@@ -30,20 +30,26 @@
       "languageCode": "en"
     }, {
       "text": {
-        "text": [ "Please type in \"Yes\" when done watching the video." ]
+        "text": [ "Please type in \"Done Watching !!\" when done watching the video." ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "mode": "blocking",
+            "text": "Done Watching !!"
+          } ],
+          "type": "chips"
+        } ] ]
       },
       "languageCode": "en"
     } ]
   },
   "transitionRoutes": [ {
-    "intent": "confirm.ack",
+    "intent": "Confirm.VideoDone",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Great !! I hope you understood how the Deuk Laser Disc Repair works. Would you like to take a look at the testimonials of some of our patients ?" ]
-        },
-        "languageCode": "en"
-      } ]
+    
     },
     "targetPage": "Testimonials",
     "name": "636aeeda-52db-4df3-ab33-d40ce9407194"

@@ -1,6 +1,27 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Yes, I stay near your facility.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yes, I'm an hour away from your facility.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yes, I am a local resident.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "Yes, I'm from "
     }, {
       "text": "Orlando",

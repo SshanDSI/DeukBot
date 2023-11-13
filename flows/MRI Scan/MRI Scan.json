@@ -8,6 +8,13 @@
     },
     "targetPage": "Local Resident",
     "name": "2bdbdcdd-7733-4c03-89ff-44f32d0dbfb5"
+  }, {
+    "intent": "redirect.MRIScan",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Local Resident",
+    "name": "9a6841b5-9d6b-4c9a-b816-b1edb3bd0f1b"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

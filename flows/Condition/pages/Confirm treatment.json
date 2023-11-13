@@ -10,6 +10,20 @@
         "text": [ "Now that we have a better understanding of what caused your back pain, would you be interested in exploring the most effective treatments for $session.params.DiscInjury?" ]
       },
       "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "mode": "blocking",
+            "text": "Yes"
+          }, {
+            "mode": "blocking",
+            "text": "No, I'm not inclined to explore that."
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
     } ]
   },
   "transitionRoutes": [ {
@@ -25,6 +39,7 @@
     "triggerFulfillment": {
     
     },
+    "targetFlow": "Thank You",
     "name": "8444a03a-2e32-4030-9ce2-9df70cc63de5",
     "description": "If the user is not interested in knowing about the treatment, we will redirect him to watch the testimonials of our patients."
   } ],

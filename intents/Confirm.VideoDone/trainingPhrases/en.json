@@ -1,63 +1,70 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "ofcourse, yes",
+      "text": "watched",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yes, ofcourse",
+      "text": "Watched !!",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "Yes, love to !!",
+      "text": "I'm done",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yes, I would love to !!",
+      "text": "Done",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yes",
+      "text": "done",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "Yea",
+      "text": "Done!!",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "Ya",
+      "text": "done watching .",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "YES",
+      "text": "done watching !!",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "Yes",
+      "text": "I'm done watching the video.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Done Watching  !!",
       "auto": true
     } ],
     "repeatCount": 1,

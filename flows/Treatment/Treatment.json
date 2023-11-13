@@ -4,20 +4,16 @@
   "transitionRoutes": [ {
     "intent": "redirect.spine.treatments",
     "triggerFulfillment": {
-      "conditionalCases": [ {
-        "cases": [ {
-          "condition": "$session.params.DiscInjury",
-          "caseContent": [ {
-            "message": {
-              "text": {
-                "text": [ "Deuk laser Disc Repair is the best-known treatment available for herniated disc. Let me show you how the Deuk laser Disc Repair works." ]
-              },
-              "languageCode": "en"
-            }
-          } ]
-        }, {
-        
-        } ]
+      "messages": [ {
+        "text": {
+          "text": [ "At Deuk Spine Institute, we offer Deuk laser Disc Repair which is the best-known treatment available for herniated disc. " ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Let me show you how the Deuk laser Disc Repair works." ]
+        },
+        "languageCode": "en"
       } ]
     },
     "targetPage": "Treatment EduVideo",
@@ -25,7 +21,17 @@
   }, {
     "intent": "confirm.ack",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "At Deuk Spine Institute, we offer Deuk laser Disc Repair which is the best-known treatment available for herniated disc. " ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Let me show you how the Deuk laser Disc Repair works." ]
+        },
+        "languageCode": "en"
+      } ]
     },
     "targetPage": "Treatment EduVideo",
     "name": "84560b99-1415-4f43-905d-9c13b3737bb9",

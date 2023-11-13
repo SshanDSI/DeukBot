@@ -5,7 +5,26 @@
   
   },
   "entryFulfillment": {
-  
+    "messages": [ {
+      "text": {
+        "text": [ "Now that you understand, how the Deuk Laser Disc Repair works. Would you like to listen to the satisfying response of our patient who underwent the Deuk Laser Disc Repair procedure ?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "mode": "blocking",
+            "text": "Yes,I would love to"
+          }, {
+            "mode": "blocking",
+            "text": "No, not at the moment"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
   },
   "transitionRoutes": [ {
     "intent": "confirm.ack",
@@ -40,12 +59,30 @@
         "languageCode": "en"
       }, {
         "text": {
-          "text": [ "Please type in \"Yes\" when done watching the video." ]
+          "text": [ "Please click on \"Done Watching !!\" when done watching the video." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "mode": "blocking",
+              "text": "Done Watching !!"
+            } ],
+            "type": "chips"
+          } ] ]
         },
         "languageCode": "en"
       } ]
     },
     "targetFlow": "Thank You",
     "name": "b52e145b-bf4e-4ce8-9a55-f582d8bf8b9e"
+  }, {
+    "intent": "decline.ack",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Thank You",
+    "name": "490eb3c7-f517-45ed-ae8d-45484b2e1983"
   } ]
 }

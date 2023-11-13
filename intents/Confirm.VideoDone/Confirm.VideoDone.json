@@ -1,0 +1,7 @@
+{
+  "name": "c27c4449-e342-406a-86bc-73e884aa71c9",
+  "displayName": "Confirm.VideoDone",
+  "priority": 500000,
+  "description": "This is to check if the user is done watching the video.",
+  "numTrainingPhrases": 10
+}

@@ -2,11 +2,11 @@
   "name": "fd6090c4-b03d-477e-b3e9-68ee3735b160",
   "displayName": "Thank You",
   "transitionRoutes": [ {
-    "intent": "confirm.ack",
+    "intent": "Confirm.VideoDone",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Sure, Redirecting you to the main page." ]
+          "text": [ "Thank you for visiting Deuk Spine Institute, you have a wonderful day !!" ]
         },
         "languageCode": "en"
       } ],
@@ -17,6 +17,27 @@
     },
     "targetFlow": "Default Start Flow",
     "name": "718599e8-f383-42c3-900d-bac5d2cd0843"
+  }, {
+    "intent": "decline.ack",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sure, no problem." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Thank you for visiting Deuk Spine Institute, you have a wonderful day !!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "reset",
+        "value": true
+      } ]
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "ada319c7-77cb-493f-9076-dfe6832b1dde"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

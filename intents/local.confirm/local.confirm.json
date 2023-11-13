@@ -10,5 +10,5 @@
   } ],
   "priority": 500000,
   "description": "This intent detects if the user is a local resident or not.",
-  "numTrainingPhrases": 3
+  "numTrainingPhrases": 6
 }

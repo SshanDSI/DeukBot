@@ -44,7 +44,16 @@
           "name": "d4fbbca6-fe3e-44ce-8c50-1e4519500918"
         } ]
       },
+      "redact": true,
       "description": "Collect the email from the user to send over the prescription."
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Can you please share your email ID here ?" ]
+      },
+      "languageCode": "en"
     } ]
   },
   "transitionRoutes": [ {
@@ -60,5 +69,6 @@
     "targetFlow": "Thank You",
     "name": "24197fdd-ce4b-4849-b5c0-b786e7f6594d",
     "description": "If all the required parameters are collected, then redirect the user to \"Thank You\" flow."
-  } ]
+  } ],
+  "description": "Ask for a email ID for the prescription to be sent to ?"
 }
